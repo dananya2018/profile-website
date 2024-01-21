@@ -1,0 +1,75 @@
+/* global css */
+
+body, p, ul {
+    padding: 0;
+    margin: 0; 
+    font-family: sans-serif;
+}
+
+ul { 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+li { list-style: none; }
+
+.wrapper { 
+    width: 60%;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+}
+
+h2 { 
+    margin: 20px 0 0;
+    color: #007873; 
+    font-family: cursive;
+    font-style: italic;
+    text-align: center;
+}
+
+.bottom-border { border-bottom: 1px solid #eee }
+
+/* styles as per sections */
+
+header {
+    padding: 20px;
+    background-color: #000;
+}
+
+header div {
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+}
+
+header div span {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end; 
+    color: #007873; 
+    font-style: italic;
+}
+
+h1 {
+    margin: 0; 
+    color: #ee5e3b;
+}
+
+.profile-pic { margin-right: 50px; }
+.profile-pic img { border-radius: 50%;}
+.my-skills ul { width: 100%; }
+.my-skills li img { width: 50px; }
+.map h2 { margin-bottom: 20px; }
+footer { background-color: black; }
+
+footer .wrapper {
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul li { margin-right: 10px; }
+footer ul li:last-of-type { margin-right: 0; }
+footer span { color: #ee5e3b; }
+footer img { border-radius: 50px; }
